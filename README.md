@@ -16,7 +16,7 @@ or add this before close <body>
 
 ```js
 SCM.getCookie() // get all cookie
-SCM.getCookie('<name>') // get you group by name
+SCM.getCookie('<name>') // get cookie by key
 SCM.setCookie('<name>', '<value>', '<options? optionally>') // set cookie
 SCM.deleteCookie('<name>') // remove cookie
 ```
